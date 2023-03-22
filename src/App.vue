@@ -9,7 +9,7 @@ let year = date.getFullYear();
 let currentDate = `${month} ${day}, ${year}`;
 
 const api_key = ref("33783d8a633da7dfc86a19a79cf0bdee");
-const url_base = ref("http://api.openweathermap.org/data/2.5/");
+const url_base = ref("https://api.openweathermap.org/data/2.5/");
 
 let query = ref("");
 let weather = ref({});
